@@ -1,0 +1,15 @@
+Ctrl+Shift+I to format the entire file 
+ctrl +d to multi select
+ctrl+k+c Will comment out the selected chunk of code in VS Code.
+
+add Uers Snippet :file ->preferences->user Snippets
+{
+// curson postion $0
+	"prnt": {
+		"prefix": "prnt",
+		"body": [
+			"echo '<pre>'print_r($0);echo '</pre>'"
+		],
+		"description": "Insert print"
+   }
+}
